@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-#define MAX_SIZE 1000 // максимальный размер массива
+#define MAX_SIZE 1000
 
 int main() {
     int arr[] = {1,-1,2, };
     int n = sizeof(arr) / sizeof(arr[0]);
-    int count[MAX_SIZE] = {0}; // массив для подсчета количества чисел
+    int count[MAX_SIZE] = {0};
 
 
     for (int i = 0; i < n; i++) {
